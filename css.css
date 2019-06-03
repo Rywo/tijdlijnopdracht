@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Questrial');
+
+body{
+	background-color: white;
+	margin: 0px;
+}
+.tltitle {
+	color: white;
+ 	align-self: center;
+	font-size: 40px;
+	font-family: 'Questrial', sans-serif;
+}
+/*Alle foto's apart gelinkt*/
+.foto1{
+    background-image: url(images/arpanet1.gif);
+}
+
+.foto2{
+    background-image: url(images/Talkomatic.png);
+}
+
+.foto3{
+    background-image: url(images/Java.png);
+}
+
+.foto4{
+    background-image: url(images/aim.jpg);
+}
+
+.foto5{
+    background-image: url(images/MSN.png);
+}
+
+.foto6{
+    background-image: url(images/skype.jpg);
+}
+
+.foto7{
+    background-image: url(images/blackperry.jpg);
+}
+
+.foto8{
+    background-image: url(images/whatsapp.png);
+}
+
+@media only screen and (min-width : 0px){
+	.nav{
+	background-color: #2874A6;
+	display: flex;
+	flex-flow: column;
+}
+	.container {
+		background-color: white;
+	}
+	.content {
+		background-color: white;
+	}
+/*De afbeelding*/
+.picture{
+ display:none;
+}
+
+/*De titel van de tekst*/
+.title{
+	font-family: 'Questrial', sans-serif;
+	font-size: 24px;
+}
+
+/*De datumtekst*/
+.date{
+	font-family: 'Abel' bold, sans-serif;
+	font-size: 20px;
+}
+
+.content{
+	background-color: white;
+	/*Hoogte van de div!!!*/
+	height: 600px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	/*lettertype jaartallen en informatietekst*/
+	font-family: 'Abel', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+p, h2, h3{
+	margin: 8px;
+}
+}
+
+@media only screen and (min-width : 360px){
+	.nav{
+	background-color: #2874A6;
+	display: flex;
+	flex-flow: column;
+	height: 45px;
+}
+
+	.textwhitespace1, .textwhitespace2{
+		background-color: #EBF5FB;
+	}
+.picture{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	/*zodat de foto meeschaalt*/
+	flex-shrink: 1;
+	margin: 0;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+	opacity: 0.65;
+}
+
+/*De titel van de tekst*/
+.title{
+	font-family: 'Questrial', sans-serif;
+	font-size: 1em;
+}
+
+.content{
+	background-color: #EBF5FB;
+	/*Hoogte van de div!!!*/
+	height: 500px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	/*lettertype jaartallen en informatietekst*/
+	font-family: 'Abel', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width : 768px){
+	.container {
+		background-color: #EBF5FB  ;
+	}
+	.content {
+		background-color: #EBF5FB;
+	}
+  .textwhitespace1 {
+    display: none;
+  }
+
+.picture{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	width: 70%;
+	opacity: 0.65;
+}
+
+.whitespace br {
+	display: inline;
+}
+
+div.content p{
+	display: flex;
+	flex-direction: column;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 60%;
+	/*lettertype jaartallen en informatietekst*/
+	font-family: 'Abel', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.title{
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+}
+
+@media only screen and (min-width : 1024px){
+  .textwhitespace1 {
+    display: none;
+  }
+  .textwhitespace2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 1366px){
+  .textwhitespace1{
+    display: none;
+  }
+	.textwhitespace2 {
+    display: none;
+  }
+.nav{
+	background-color: #2874A6;
+	display: flex;
+	flex-flow: column;
+}
+
+.picture{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	height: 450px;
+	width: 70%;
+	opacity: 0.65;
+}
+
+div.content p{
+	font-size: 24px;
+}
+.title{
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+}
+}
+
+
+@media only screen and (min-width : 1920px){
+
+.nav{
+	background-color: #2874A6;
+	display: flex;
+	flex-flow: column;
+}
+
+.title{
+	font-family: 'Questrial', sans-serif;
+	font-size: 24px;
+}
+.date {
+  font-size: 20px;
+}
+
+.picture{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	width: 65%;
+	opacity: 0.65;
+}
+
+}
